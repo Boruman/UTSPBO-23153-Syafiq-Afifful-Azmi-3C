@@ -26,7 +26,7 @@ public abstract class Pengguna implements Reservasi {
     public abstract void pesanKamar(int nomorKamar);
 
     public void batalkanPesanan(KamarHotel kamar) {
-        kamar.setDipesan(true);
+        kamar.setDipesan(false);
         kamarDipesan.remove(kamar);
         System.out.println("Pesanan untuk kamar " + kamar.getNomorKamar() + " telah dibatalkan.");
     }
