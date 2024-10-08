@@ -1,0 +1,1 @@
+POIN C SAYA GAGAL KANG :'(
